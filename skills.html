@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SKILLS</title>
+
+  <style>
+    body {
+      background-color: #1a1a1a;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    #hhh {
+      text-align: center;
+      padding: 30px 0 10px 0;
+    }
+
+    #hhh h1 {
+      font-size: 2.5rem;
+      text-decoration: underline;
+      letter-spacing: 2px;
+    }
+
+    .box-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background-color: white;
+      color: black;
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      text-align: center;
+      padding-top: 15px;
+      box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(255, 255, 255, 0.3);
+    }
+
+    .card p {
+      margin: 0;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    .card img {
+      height: 60px;
+      object-fit: contain;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="certificates.html">Certificates</a>
+    <a href="project.html">Projects</a>
+  </nav>
+
+  <div id="hhh">
+    <h1>Coding Languages</h1>
+  </div>
+
+  <div class="box-container">
+
+    <div class="card">
+      <p>C</p>
+      <img src="images/C.png" alt="C">
+    </div>
+
+    <div class="card">
+      <p>PYTHON</p>
+      <img src="images/python.png" alt="Python">
+    </div>
+
+    <div class="card">
+      <p>JAVA</p>
+      <img src="images/java.png" alt="Java">
+    </div>
+
+    <div class="card">
+      <p>HTML</p>
+      <img src="images/html.png" alt="HTML">
+    </div>
+
+    <div class="card">
+      <p>CSS</p>
+      <img src="images/css.png" alt="CSS">
+    </div>
+
+    <div class="card">
+      <p>SQL</p>
+      <img src="images/sql.png" alt="SQL">
+    </div>
+
+  </div>
+
+</body>
+</html>

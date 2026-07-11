@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects</title>
+
+<style>
+/* ================= BODY ================= */
+body {
+    background: #0f0f1a;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================= NAVBAR ================= */
+nav {
+    background-color: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+/* ================= HEADING ================= */
+#hhh {
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+#hhh h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+/* ================= PROJECT GRID ================= */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* ================= PROJECT CARD ================= */
+.project-card {
+    width: 340px;
+    background: #1c1c2e;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,191,255,0.3);
+}
+
+/* ================= IMAGE (NO CROP) ================= */
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+/* ================= CONTENT ================= */
+.project-card h2 {
+    text-align: center;
+    margin: 15px 0;
+    color: #00bfff;
+}
+
+.project-card p {
+    padding: 0 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.tech {
+    padding: 0 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #87cefa;
+}
+
+/* ================= BUTTON ================= */
+.btn {
+    display: block;
+    margin: 15px auto 20px;
+    padding: 10px 20px;
+    width: fit-content;
+    background: #00bfff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0099cc;
+    transform: scale(1.05);
+}
+
+/* ================= EXTRA IMAGE CARDS (LIKE YOUR SAMPLE) ================= */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 320px;
+    height: 220px;
+    background: #1c1c2e;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,191,255,0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="certificates.html">Certificates</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<!-- HEADING -->
+<div id="hhh">
+    <h1>PROJECTS</h1>
+</div>
+
+<!-- PROJECTS -->
+<div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+        <img src="images/travel.png" alt="Travel Website">
+
+        <h2>Travel Website</h2>
+
+        <p>
+            A responsive travel website designed to help users explore destinations,
+            discover travel information, and plan trips with an attractive UI.
+        </p>
+
+        <p class="tech">Technologies: HTML, CSS, JavaScript</p>
+
+        <a class="btn" href="https://github.com/Pavaninagadivya/Travel_Website" target="_blank">
+            View Project
+        </a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+        <img src="images/butterfly.png" alt="Butterfly Classification">
+
+        <h2>Butterfly Classification</h2>
+
+        <p>
+            Deep Learning project using VGG16 model to classify butterfly species
+            from images with high accuracy.
+        </p>
+
+        <p class="tech">Technologies: Python, TensorFlow, VGG16</p>
+
+        <a class="btn" href="https://github.com/Pavaninagadivya/AIML-project" target="_blank">
+            View Project
+        </a>
+    </div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>

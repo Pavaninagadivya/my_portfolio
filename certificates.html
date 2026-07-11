@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+        }
+
+        /* HEADER */
+        .header {
+            text-align: center;
+            background: #1f1f2e;
+            color: white;
+            padding: 25px;
+            letter-spacing: 2px;
+        }
+
+        /* CENTER CONTAINER */
+        .certificates-container {
+            display: flex;
+            flex-direction: column;   /* stack vertically */
+            align-items: center;      /* center horizontally */
+            justify-content: center;
+            gap: 25px;
+            padding: 30px;
+        }
+
+        /* CARD */
+        .certificate-card {
+            width: 320px;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+            text-align: center;
+
+            transition: transform 0.3s ease;
+        }
+
+        /* IMAGE */
+        .certificate-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* TITLE */
+        .certificate-card h3 {
+            margin: 10px 0;
+        }
+
+        /* HOVER EFFECT */
+        .certificate-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>CERTIFICATES</h1>
+    </div>
+
+    <section class="certificates-container">
+
+        <div class="certificate-card">
+            <img src="images/smartbridge.jpg" alt="Smart Bridge Certificate">
+            <h3>Smart Bridge</h3>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/AI.jpg" alt="AI Certificate">
+            <h3>Artificial Intelligence</h3>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/python.jpg" alt="Python Certificate">
+            <h3>Python Programming</h3>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/DF(STEM).jpg" alt="Data Fundamentals Certificate">
+            <h3>Data Fundamentals</h3>
+        </div>
+
+        <div class="certificate-card">
+            <img src="images/elewayte.jpg" alt="Elewayte Certificate">
+            <h3>Elewayte</h3>
+        </div>
+
+    </section>
+
+</body>
+</html>
